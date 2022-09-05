@@ -14,7 +14,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 #========================
 # Miscellaneous packages
-# Includes minimal runtime used for executing non GUI Java programs
+# Includes minimal runtime used for executing GUI Java programs (for example, to run selenium scripts)
 #========================
 RUN apt-get -qqy update \
   && apt-get -qqy install \
